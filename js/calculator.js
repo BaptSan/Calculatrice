@@ -2,6 +2,7 @@
 
 
 $('.btn').click(function(){
+	$('#result').append($(this).html());
 	$(console.log('test'));
 });
 
